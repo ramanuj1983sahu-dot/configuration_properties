@@ -1,0 +1,47 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: products-api
+
+products:
+  - id: 101
+    name: iPhone 15
+    category: Electronics
+    price: 799
+    currency: USD
+    stock: 50
+    active: true
+
+  - id: 102
+    name: Samsung Galaxy S23
+    category: Electronics
+    price: 699
+    currency: USD
+    stock: 40
+    active: true
+
+  - id: 103
+    name: Sony WH-1000XM5 Headphones
+    category: Accessories
+    price: 349
+    currency: USD
+    stock: 25
+    active: true
+
+  - id: 104
+    name: Dell XPS 13 Laptop
+    category: Computers
+    price: 999
+    currency: USD
+    stock: 15
+    active: true
+
+  - id: 105
+    name: Apple Watch Series 9
+    category: Wearables
+    price: 399
+    currency: USD
+    stock: 30
+    active: true
